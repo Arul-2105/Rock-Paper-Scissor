@@ -1,0 +1,45 @@
+      /* SPS.css content here */
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        width: 60%;
+        height: 50%;
+        margin-top: 15%;
+        margin-left: 20%;
+        position: relative;
+        padding: 30px;
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(254, 244, 103);
+        border-radius: 10px;
+    }
+    .choices {
+        margin: 20px 0;
+    }
+    .choices button {
+        width: 20%;
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    .result {
+        margin-top: 20px;
+    }
+    #result {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #scores {
+        font-size: 18px;
+    }
